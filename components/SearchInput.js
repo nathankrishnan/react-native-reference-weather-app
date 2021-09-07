@@ -21,7 +21,6 @@ export default class SearchInput extends React.Component {
 const styles = StyleSheet.create({
 	container: {
 		height: 40,
-		width: 300,
 		marginTop: 20,
 		backgroundColor: '#666',
 		marginHorizontal: 40,
