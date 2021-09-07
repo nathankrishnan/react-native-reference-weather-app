@@ -16,6 +16,10 @@ export const fetchWeather = async woeid => {
   return {
     location: title,
     weather: weather_state_name,
-    temperature: the_temp,
+    temperature: celToFar(the_temp),
   };
 };
+
+const celToFar = celsiusTemp => {
+  return (celsiusTemp * 9/5) + 32;
+}
